@@ -140,3 +140,28 @@ input:focus{
 #submit:hover{
     background-color: gray;
 }
+
+.feed{
+    overflow: scroll;
+    width: 100%;
+    padding: 0;
+}
+
+.feed li{
+    display: flex;
+    background-color: #444654;
+    width: 100%;
+    padding: 20px;
+    margin: 20px 0px;
+
+}
+
+.feed p{
+    color: rgb(255, 255, 255, 0.8);
+    font-size: 14px;
+    text-align: left;
+}
+
+.feed p.role{
+    min-width: 100%;
+}
