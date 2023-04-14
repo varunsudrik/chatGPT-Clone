@@ -41,9 +41,11 @@ button{
     background-color: transparent;
     border-radius: 5px;
     padding: 15x;
+    height: 46px;
     margin: 10px;
     color: white;
     cursor: pointer;
+    padding-left: 12px;
 
 
 }
@@ -83,4 +85,58 @@ nav{
     font-size: 0.75rem;
     padding: 10px;
 
+}
+
+.bottom-section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-container{
+    position: relative;
+     width: 100%;
+     max-width: 650px;
+
+}
+input{
+    width: 100%;
+    border: none;
+    color: white;
+    font-size: 18px;
+    background-color: rgb(255, 255, 255, 0.05);
+    padding: 12px 10px;
+    /* box-shadow: rgba(0, 0, 0, 0.05) 0 54px 55px; */
+    box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px;
+    box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 10px 0px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+input:focus{
+    outline: none;
+}
+
+#submit{
+    position: absolute;
+    bottom: 15px;
+    right: 0px;
+    cursor: pointer;
+    width: 28px;
+    height: 24px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+#submit:hover{
+    background-color: gray;
 }

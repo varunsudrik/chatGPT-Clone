@@ -17,7 +17,7 @@ function App() {
         <ul className="feed"> </ul>
         <div className="bottom-section">
           <div className="input-container">
-            <input />
+            <input placeholder="Send a message ..." />
             <div id="submit">➢</div>
           </div>
           <p className="info">
